@@ -24,14 +24,26 @@ For the analysis of outcomes based on launch date, one notable challenge is that
 
 For the analysis of outcomes based on goals, the most obvious challenge is that there are far more campaigns in the lower goal ranges than there are above $15,000. Because there are fewer data points in the larger ranges, apparent trends may actually be caused by other considerations specific to the individual campaigns. Because I analyzed the percent of each range that had a specific outcome, the number of campaigns in each range is obscured. You can see that the number of plays in each range is heavily weighted to the bottom of the spectrum in the image below:
 
-
+![Total Projects by Goal Size (Plays only)](https://github.com/jrpillai/kickstarter-analysis/blob/688bc4751555276d2a4277e8c0c773749cb66bdc/resources/Plays_by_Goal_Size.png)
 
 ## Results
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
+### Outcomes based on Launch Date - Conclusions
+The success of theater kickstarter campaings is clearly seasonal. Campaigns launched in late spring and early summer are most successful, and success steadily falls through winter. The best time to launch a campaign is May - June. 
 
-- What can you conclude about the Outcomes based on Goals?
+You can also see that in May-June, about twice as many campaigns are successful as fail. At other times of the year, a higher proportion of campaigns fail. Overall however, at least for theater campaigns, there is a good chance of having a successful campaign at any time of year. 
 
-- What are some limitations of this dataset?
 
-- What are some other possible tables and/or graphs that we could create?
+## Outcomes based on Goals - Conclusions
+In general, campaigns with lower goals are more successful, with the percentage of successful campaigns falling significantly at the $20,000 to $29,999 interval. Campaigns with a goal less than $5,000 are reasonably successful, with only about one-quarter of them failing. However the distribution is bimodal - there is another group of campaigns around $30,000 - $45,000 that are also quite successful, with about two-thirds of campaigns being successful. 
+
+## Limitations of the Dataset
+For the outcomes based on goals, there a far fewer campaigns in the highest range and some data points that are likely outliers, making conclusions less reliable. 
+
+## Other graphs or tables
+Other possible graphs or tables might include:
+* A table showing the percentage of theater campaigns that were successful in each month. 
+* A line graph showing how the seasonality of campaign success has changed over years, with a separate curve for 2014, 2015, and 2016.
+* A box and whisker plot showing the spread of campaign goals to identify outliers.
+* A revised line graph that has removed the outliers to improve the ability to discern real trends. 
+
