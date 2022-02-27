@@ -35,17 +35,17 @@ The success of theater Kickstarter campaigns is seasonal. Campaigns launched in 
 You can also see that in May-June, about twice as many campaigns are successful as fail. At other times of the year, a higher proportion of campaigns fail. However, at least for theater campaigns, there is a good chance of having a successful campaign at any time of year. 
 
 
-## Outcomes based on Goals - Conclusions
+### Outcomes based on Goals - Conclusions
 
 In general, campaigns with lower goals are more successful, with the percentage of successful campaigns falling significantly at the $20,000 to $29,999 interval. Campaigns with a goal less than $5,000 are reasonably successful, with only about one-quarter of them failing. However the distribution is bimodal - there is another cluster of campaigns around $30,000 - $45,000 that are also quite successful, with about two-thirds of campaigns being successful. 
 
-## Limitations of the Dataset
+### Limitations of the Dataset
 
 The clearest limitation of the dataset is the missing details that it doesn't contain. For example, more data about the nature of the individual theater campaigns (such as information about the campaigners - student project, professional troupe, etc) might have provided a clearer picture of the relationship between campaign goals and success and explained the bimodal distribution. Similarly, information about how close a campaign got to its goal would have helped confirm the seasonality of campaign success. 
 
 Another clear limitation is the presence of outliers in various dimensions. For example, the one unsuccessful campaign in the campaign goal range of $45,000 to $49,999 brings the percentage successful to zero and makes the trend line plummet visually. Although we can draw clear conclusions about the relative success of campaigns in better-populated goal ranges, it is hard to make reliable conclusions about overall trends when there are relatively few campaigns with high goals. Similarly, campaigns from the early years of Kickstarter have little outcome seasonality, and may not be representative of the current reality.
 
-## Other graphs or tables
+### Other graphs or tables
 
 Other possible graphs or tables might include:
 * A table showing the percentage of theater campaigns that were successful in each month. 
